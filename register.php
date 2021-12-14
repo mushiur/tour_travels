@@ -175,7 +175,7 @@ if((isset($_POST["login"])))
     
   }
 
-  header('location: index.php');
+  header('location: index.html');
 
 
  
