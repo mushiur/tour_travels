@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+.card-content:hover {
+  background-color: aqua;
+}
 .section-search input {
   padding: 5px;
   font-size: 18px;
