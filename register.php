@@ -130,7 +130,7 @@
 
         <?php
 
-        header('location: index.php');
+        header('location: home.php');
       }else{
 
         echo "<script>alert('opps.something went wrong.please try again');</script>";
@@ -175,7 +175,7 @@ if((isset($_POST["login"])))
     
   }
 
-  header('location: index.html');
+  header('location: index.php');
 
 
  
