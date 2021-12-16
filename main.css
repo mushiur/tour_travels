@@ -1,7 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
-
+* {
+  font-family: "Times New Roman", Times, serif;
+}
 html {
   scroll-behavior: smooth;
+}
+.section-search {
+  margin-top: 820px;
+  text-align: center;
+}
+.section-search h3 {
+  text-decoration: underline;
+  color: aquamarine;
+}
+.booking:hover {
+  background-color: bisque;
+  color: rgb(6, 102, 70);
 }
 .card:hover {
   color: rgb(246, 63, 57);
@@ -66,31 +80,31 @@ html {
 
 .slide_2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/recipe_slides/recipe1.jpg);
+    url(img/recipe1.jpg);
 }
 .slide_3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/recipe_slides/recipe2.jpg);
+    url(img/recipe2.jpg);
 }
 .slide_4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/recipe_slides/recipe3.jpg);
+    url(img/recipe3.jpg);
 }
 .slide_5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/recipe_slides/recipe4.jpg);
+    url(img/recipe4.jpg);
 }
 .slide_6 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/recipe_slides/recipe5.jpg);
+    url(img/recipe5.jpg);
 }
 .slide_7 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/recipe_slides/recipe6.jpg);
+    url(img/recipe6.jpg);
 }
 .slide_8 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/recipe_slides/recipe7.jpg);
+    url(img/recipe7.jpg);
 }
 /* Welcome-text section */
 section#welcome-text h2 {
@@ -103,7 +117,7 @@ section#welcome-text {
   padding: 100px 0px;
 }
 section#welcome-text p {
-  color: #777;
+  color: rgb(8, 98, 216);
   text-align: center;
   font-size: 16px;
 }
